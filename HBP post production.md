@@ -154,7 +154,7 @@ Name				|	Value
 --------------------|-----------------------
 Bypass				|	[disabled]
 Individual Filters	|	[enabled]
-! Analyzer Active	|	[enabled]
+**Analyzer Active**	|	**[enabled]**
 Input Gain			|	1.000
 Output Gain			|	1.000
 HP Active			|	[ ]
@@ -169,9 +169,9 @@ LS Active			|	[ ]
 Level L				|	1.000
 Freq L				|	100.00 Hz
 LS Q				|	* 0.71
-! HS Active			|	[ON]
-! Level H			|	2.000
-! Freq H			|	3600.00 Hz
+**HS Active**			|	**[ON]**
+**Level H**			|	**2.000**
+**Freq H**			|	**3600.00 Hz**
 HS Q				|	* 0.71
 F1 Active			|	[ ]
 Level 1				|	1.000
@@ -181,12 +181,12 @@ F2 Active			|	[ ]
 Level 2				|	1.000
 Freq 2				|	500.00 Hz
 Q 2					|	* 1.00
-! F3 Active			|	[ON]
-! Level 3			|	1.300
+**F3 Active**			|	**[ON]**
+**Level 3**			|	**1.300**
 Freq 3				|	2000 Hz
 Q 3					|	* 1.00
-! F4 Active			|	[ON]
-! Level 4			|	1.300
+**F4 Active**			|	**[ON]**
+**Level 4**			|	**1.300**
 Freq 4				|	5000.00 Hz
 Q 4					|	* 1.00
 Zoom				|	0.250
