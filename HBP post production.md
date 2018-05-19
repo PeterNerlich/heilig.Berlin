@@ -20,13 +20,13 @@
 - set start and end marker
 - if running on auphonic free budget (meaning multitrack processing limited to 20min)
 	- splitting podcast in ~3 slightly (> 2s) overlapping sections < 20min by setting range markers named `proc[1|2|3]`
-	- export for each section each track (excluding sync track) as `[stephan|dietmar|jana]-proc[1|2|3].wav` by applying the following configuration:
+	- stem export for each section by applying the following configuration:
 		- File format
 			- Format:	BWAV 24bit Export: BWF, 24-bit, Session rate
 			- Location
 				- Build filename(s) from these components:
 					- [No Name]
-					- Label:	[stephan|dietmar|jana]
+					- Label:	
 					- Timespan name:	[enabled]
 					- [No Date]
 					- [No Time]
@@ -36,17 +36,17 @@
 		- Channels
 			- Master	[disabled]
 			- sync	[disabled]
-			- (each [stephan|dietmar|jana])	[enabled] only in its pass
-			- Cannels:	1
-			- Split to mono files:	[disabled]
+			- stephan	[enabled]
+			- dietmar	[enabled]
+			- jana	[enabled]
 - else
-	- export each track as `[stephan|dietmar|jana].wav` by applying the following configuration:
+	- stem export by applying the following configuration:
 		- File format
 			- Format:	BWAV 24bit Export: BWF, 24-bit, Session rate
 			- Location
 				- Build filename(s) from these components:
 					- [No Name]
-					- Label:	[stephan|dietmar|jana]
+					- Label:	
 					- Timespan name:	[enabled]
 					- [No Date]
 					- [No Time]
@@ -55,9 +55,9 @@
 		- Channels
 			- Master	[disabled]
 			- sync	[disabled]
-			- (each [stephan|dietmar|jana])	[enabled] only in its pass
-			- Cannels:	1
-			- Split to mono files:	[disabled]
+			- stephan	[enabled]
+			- dietmar	[enabled]
+			- jana	[enabled]
 
 ## adjustment
 - check for an existing multitrack preset with the following settings:
